@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bootstrap for button styling -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="announcements.css">
+
+        <title>Announcements &mdash; Static HTML</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="announcement-editor">
+                <input type="text" id="new-announcement-subject" class="form-control" name="subject" placeholder="Subject">
+                <textarea id="new-announcement-body" class="form-control" name="body-text" placeholder="Message"></textarea>
+                <input id="submit-button" type="submit"  class="btn btn-primary" value="Submit">
+            </div>
+            <div id="announcements">
+                <div class="announcement">
+                    <span class="announcement-subject">
+                        Announcement 1 Subject
+                    </span>
+                    <span class="announcement-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam metus felis, ultrices a vulputate sed, eleifend in eros. Sed varius faucibus nisi, eget consectetur dui tristique id.
+                    </span>
+                </div>
+                <div class="announcement">
+                    <span class="announcement-subject">
+                        Announcement 2 Subject
+                    </span>
+                    <span class="announcement-body">
+                        Mauris et auctor turpis. Integer mollis pulvinar facilisis. Suspendisse vulputate finibus tempus. Praesent nec nibh sed lorem imperdiet porttitor volutpat quis lectus. Curabitur eu dapibus purus. Sed semper lacus nunc, ut hendrerit arcu porta eu. Morbi pulvinar nulla quis nisi scelerisque, vitae posuere dui rhoncus.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

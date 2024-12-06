@@ -1,93 +1,68 @@
+/* Reset and general styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: rgb(255, 240, 153); /* Soft yellow background */
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
-.sidebar {
-    width: 250px;
-    background-color: rgba(255, 255, 204, 0.8); /* Light pastel yellow */
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar h2 {
-    margin-top: 0;
-    font-size: 30px;
-    color: #444; /* Darker gray for better readability */
-}
-
-.sidebar .menu-item {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    font-size: 18px;
-    color: #666; /* Neutral gray */
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.sidebar .menu-item:hover {
-    background-color: rgba(255, 223, 128, 0.8); /* Highlight with light orange-yellow */
-    color: #333; /* Slightly darker gray */
-}
-
-.sidebar .menu-item i {
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.main {
-    flex-grow: 1;
-    padding: 40px;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.main h1 {
-    font-size: 50px;
-    font-weight: bold;
-    color: #444; /* Matches sidebar heading */
-    margin-bottom: 20px;
-}
-
-.main h2 {
-    font-size: 25px;
-    color: #666; /* Matches sidebar text */
-    margin-bottom: 50px;
-}
-
-.main .box {
-    background-color: rgba(255, 255, 204, 0.8); /* Consistent with sidebar */
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: 30px;
-    margin-right: 50px;
-    margin-bottom: 30px;
-    font-size: 18px;
+.landing-page {
     text-align: center;
-    color: #555; /* Neutral gray */
-    cursor: pointer;
-    transition: box-shadow 0.3s, transform 0.3s;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white box */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+}
+
+.app-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333; /* Dark gray for text */
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #555; /* Neutral gray for tagline */
+    margin-bottom: 30px;
+}
+
+.button-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
 }
 
-.main .box:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(-3px); /* Slight lift on hover */
+.btn-primary {
+    background-color: #4caf50; /* Green button */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-.box i {
-    font-size: 24px;
-    color: #777; /* Subtle gray icon color */
-    margin-left: 20px;
-    transition: color 0.3s;
+.btn-primary:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
 }
 
-.box:hover i {
-    color: #444; /* Matches sidebar heading on hover */
+.btn-secondary {
+    background-color: #008cba; /* Blue button */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #007bb5; /* Slightly darker blue on hover */
 }

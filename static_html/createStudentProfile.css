@@ -1,25 +1,38 @@
-/* student-profile.css */
+/* createprofile.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(255, 240, 153);
+    font-family: Arial, sans-serif; /* 字体设置 */
+    background-color: rgb(255, 240, 153); /* 背景颜色 */
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+}
+
+.sidebar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.sidebar h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 30px;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 40px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 350px;
+    width: 450px;
     text-align: center;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
@@ -31,36 +44,55 @@ h1 {
 }
 
 label {
-    font-size: 14px;
-    color: #555;
-    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
     margin-bottom: 5px;
 }
 
+/* 设置输入框和下拉框背景颜色为灰色 */
 input, select {
     width: 100%;
+    height: 50px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+    color: #000;
+    box-sizing: border-box;
+    appearance: none;
+    background-image: none;
+}
+
+/* 为 select 添加倒三角图标 */
+select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 width%3D%2212%22 height%3D%227%22 viewBox%3D%220 0 12 7%22%3E%3Cpath fill%3D%22%23333%22 d%3D%22M6 7 0 0h12z%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 7px;
+    padding-right: 35px; /* 给图标留出空间 */
 }
 
 input::placeholder {
-    color: #aaa;
+    color: #777; /* 灰色占位符 */
+    font-style: italic;
 }
 
 button {
     margin-top: 20px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-    background-color: #444;
+    background-color: #000;
+    color: #fff;
 }

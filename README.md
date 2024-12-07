@@ -9,9 +9,9 @@ Note for developing:
 "templates" folder should hold .css files.
 
 Pages to implemented for Checkpoint 4:
-- Landing Page
-- Create student profile
-- Home screen
+- Landing Page (/)
+- Create student profile (/create-student-profile)
+- Home screen (/home)
 
 Code Instruction:
 open the folder on VSCode.

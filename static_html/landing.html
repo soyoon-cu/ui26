@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Machine</title>
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="styles.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header">
+        <span class="title">Time Machine</span>
+        <input type="text" class="url-bar" value="http://timemachine.com" readonly>
+    </div>
     <div class="landing-page">
-        <div class="header">
-            <span>TimeMachine</span>
-            <input type="text" class="url-bar" value="https://timemachine.com" readonly>
-        </div>
-        <div class="content">
+        <div class="icon-container">
             <img src="https://img.icons8.com/ios-filled/100/000000/helping-hand.png" alt="Helping Hands Icon" class="icon">
-            <h1 class="title">Time Machine</h1>
-            <p class="description">
-                A community to resolve post-grad uncertainty<br>
-                Share or Learn about non-normative career options<br>
-                Build or Share personalized alum profiles
-            </p>
-            <div class="button-container">
-                <button class="btn student">Student Sign Up</button>
-                <button class="btn alum">Alum Sign Up</button>
-            </div>
+        </div>
+        <h1 class="title">Time Machine</h1>
+        <p class="description">
+            A community to resolve post-grad uncertainty<br>
+            Share and Learn about non-normative career options<br>
+            Build and share personalized alum profiles
+        </p>
+        <div class="button-container">
+            <button class="btn btn-light">Student Sign Up</button>
+            <button class="btn btn-light">Alumni Sign Up</button>
+            <button class="btn btn-yellow">Log In</button>
         </div>
     </div>
 </body>

@@ -1,0 +1,73 @@
+/* Reset and general styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 240, 153); /* Soft yellow background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landing-page {
+  text-align: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent white box */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333; /* Dark gray for text */
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #555; /* Neutral gray for tagline */
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+}
+
+.btn-primary {
+  background-color: #4caf50; /* Green button */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.btn-secondary {
+  background-color: #008cba; /* Blue button */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #007bb5; /* Slightly darker blue on hover */
+}

@@ -39,5 +39,9 @@ def create_student_profile():
 def create_alum_profile():
    return "Create alum profile page"
 
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+   return "login page"
+
 if __name__ == '__main__':
    app.run(debug = True)

@@ -1,68 +1,109 @@
-/* Reset and general styles */
+/* General Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: rgb(255, 240, 153); /* Soft yellow background */
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(255, 240, 153); /* Soft yellow */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
 }
 
+/* Header */
+.header {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .title {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.url-bar {
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #666;
+}
+
+/* Landing Page */
 .landing-page {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white box */
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    width: 90%;
+    margin-top: 30px;
+    padding: 20px;
 }
 
-.app-title {
-    font-size: 2.5rem;
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 120px;
+    height: auto;
+}
+
+.title {
+    font-size: 2rem;
     font-weight: bold;
-    color: #333; /* Dark gray for text */
-    margin-bottom: 10px;
+    color: #333;
+    margin: 20px 0 10px 0;
 }
 
-.tagline {
-    font-size: 1.2rem;
-    color: #555; /* Neutral gray for tagline */
+.description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
     margin-bottom: 30px;
 }
 
+/* Buttons */
 .button-container {
     display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between buttons */
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 
-.btn-primary {
-    background-color: #4caf50; /* Green button */
-    border: none;
-    color: white;
-    padding: 10px 20px;
+.btn {
+    width: 200px;
+    padding: 10px 15px;
     font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #444;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.btn-primary:hover {
-    background-color: #45a049; /* Slightly darker green on hover */
+.btn-light {
+    background-color: #fff;
+    color: #444;
 }
 
-.btn-secondary {
-    background-color: #008cba; /* Blue button */
+.btn-light:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.btn-yellow {
+    background-color: #ffc107; /* Yellow button */
+    color: #444;
     border: none;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
 }
 
-.btn-secondary:hover {
-    background-color: #007bb5; /* Slightly darker blue on hover */
+.btn-yellow:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+    color: #fff;
 }

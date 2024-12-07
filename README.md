@@ -8,7 +8,11 @@ Note for developing:
 "static" folder should hold .html and .js files.
 "templates" folder should hold .css files.
 
-Pages to implement for Checkpoint 4:
+Pages to implemented for Checkpoint 4:
 - Landing Page
 - Create student profile
 - Home screen
+
+Code Instruction:
+open the folder on VSCode.
+In the terminal, run `python server.py`

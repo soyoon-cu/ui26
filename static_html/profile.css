@@ -1,0 +1,190 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 240, 153);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px; 
+    font-size: 20px; 
+    color: #000; 
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+
+
+label {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+input, select {
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    color: #000;
+    align-items: center;
+}
+
+
+input::placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+.box1{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    height: 50px;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.box2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 0.4;
+    border: 2px solid #000;
+    text-align: center;
+    height: 290px;
+}
+
+.box3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 0.45;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 320px;
+    position: relative;
+}
+
+.tabs {
+    position: absolute;
+    top: 20px;
+    left: -93px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tab {
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #bbb;
+}
+
+.tab-content {
+    flex: 3;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+.bottom-left-text {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.box4 {
+    position: absolute;  
+    left: 9vw;
+    bottom:22vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fas.fa-envelope {
+    font-size: 18px;
+    color: #000;
+}
+
+.box4 p{
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Align items to the left */
+    justify-content: flex-start;  /* Ensure the button stays on the left */
+
+}
+
+.btn {
+    margin-top: 20px;  /* Adds space between the button and other elements */
+    padding: 5px 16px;
+    font-size: 18px;
+    border: 2px solid #444;
+    cursor: pointer;
+    background-color: #fff;
+    color: #444;
+    border-radius: 4px; 
+}
+
+
+#videoUpload {
+    width: 300px; /* Adjust the width as needed */
+    padding: 5px; /* Optional: control the padding inside the input box */
+}

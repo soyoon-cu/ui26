@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "major": "Computer Science",
+        "year": 2018,
+        "current_job": "Software Engineer",
+        "location": "San Francisco, CA",
+        "working_area": "SDE"
+    },
+    {
+        "id": 2,
+        "name": "Michael Brown",
+        "major": "Mechanical Engineering",
+        "year": 2020,
+        "current_job": "Design Engineer",
+        "location": "Detroit, MI",
+        "working_area": "Consulting"
+    },
+    {
+        "id": 3,
+        "name": "Sarah Lee",
+        "major": "Business Administration",
+        "year": 2017,
+        "current_job": "Marketing Manager",
+        "location": "New York, NY",
+        "working_area": "Investment Banking"
+    },
+    {
+        "id": 4,
+        "name": "David Kim",
+        "major": "Electrical Engineering",
+        "year": 2019,
+        "current_job": "Hardware Developer",
+        "location": "Austin, TX",
+        "working_area": "SDE"
+    },
+    {
+        "id": 5,
+        "name": "Emily Davis",
+        "major": "Biology",
+        "year": 2021,
+        "current_job": "Research Scientist",
+        "location": "Boston, MA",
+        "working_area": "Consulting"
+    }
+]

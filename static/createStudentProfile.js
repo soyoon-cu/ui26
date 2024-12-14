@@ -23,7 +23,6 @@ $(document).ready(function () {
             contentType: "application/json",
             data: JSON.stringify(formData),
             success: function (response) {
-                console.log("Server Response:", response);
                 alert("Profile submitted successfully!");
             },
             error: function (xhr, status, error) {

@@ -1,78 +1,92 @@
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: rgb(255, 240, 153);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 240, 153); /* Matching yellow background */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
+/* Sidebar styles */
+.sidebar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.sidebar h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Container styles */
 .container {
-    background-color: rgba(255, 255, 255, 0.63);
-    border-radius: 15px;
-    padding: 40px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 400px;
+  background-color: rgba(255, 255, 255, 0.9); /* Soft white background */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
 }
 
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+/* Heading styles */
+.container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.career-options {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+/* Button styles */
+.btn.option {
+  width: 100%;
+  background-color: #ffffff;
+  color: #333;
+  border: 2px solid #333;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
-.career-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+.btn.option i {
+  margin-right: 15px;
+  font-size: 20px;
 }
 
-.career-btn i {
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.career-btn:hover {
-    background-color: #e0e0e0;
+.btn.option:hover {
+  background-color: #ffd700; /* Bright gold hover effect */
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.back-btn, .settings-btn {
-    background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+.back-btn,
+.settings-btn {
+  background-color: #ffffff;
+  color: #333;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.back-btn:hover, .settings-btn:hover {
-    background-color: #e0e0e0;
+.back-btn:hover,
+.settings-btn:hover {
+  background-color: #ffd700;
 }

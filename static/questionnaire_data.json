@@ -1,0 +1,23 @@
+[
+    {
+        "alumniId": "1",
+        "contact_info": {
+            "email": "alice_johnson@gmail.com"
+        },
+        "current_job": "Software Engineer",
+        "id": 1,
+        "location": "San Francisco, CA",
+        "major": "Computer Science",
+        "name": "Alice Johnson",
+        "working_area": "SDE",
+        "year": 2018,
+        "formData": {
+            "q1": "test",
+            "q2": "test",
+            "q3": "test",
+            "q4": "test",
+            "q5": "test",
+            "consent": true
+        }
+    }
+]

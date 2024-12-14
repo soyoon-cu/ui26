@@ -6,7 +6,10 @@
         "year": 2018,
         "current_job": "Software Engineer",
         "location": "San Francisco, CA",
-        "working_area": "SDE"
+        "working_area": "SDE",
+        "contact_info": {
+            "email": "alice_johnson@gmail.com"
+        }
     },
     {
         "id": 2,
@@ -15,7 +18,10 @@
         "year": 2020,
         "current_job": "Design Engineer",
         "location": "Detroit, MI",
-        "working_area": "Consulting"
+        "working_area": "Consulting",
+        "contact_info": {
+            "email": "michael_brown@gmail.com"
+        }
     },
     {
         "id": 3,
@@ -24,7 +30,10 @@
         "year": 2017,
         "current_job": "Marketing Manager",
         "location": "New York, NY",
-        "working_area": "Investment Banking"
+        "working_area": "Investment Banking",
+        "contact_info": {
+            "email": "sarah_lee@gmail.com"
+        }
     },
     {
         "id": 4,
@@ -33,7 +42,10 @@
         "year": 2019,
         "current_job": "Hardware Developer",
         "location": "Austin, TX",
-        "working_area": "SDE"
+        "working_area": "SDE",
+        "contact_info": {
+            "email": "david_kim@gmail.com"
+        }
     },
     {
         "id": 5,
@@ -42,6 +54,9 @@
         "year": 2021,
         "current_job": "Research Scientist",
         "location": "Boston, MA",
-        "working_area": "Consulting"
+        "working_area": "Consulting",
+        "contact_info": {
+            "email": "emily_davis@gmail.com"
+        }
     }
 ]

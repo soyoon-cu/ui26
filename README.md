@@ -17,6 +17,7 @@ Code Instruction:
 open the folder on VSCode.
 
 If Python is not installed, install Python and add it to PATH variable first.
+
 Then, if Flask is not installed, run `pip install flask` on git bash.
 
 In the terminal, run `python server.py`

@@ -61,6 +61,7 @@ body {
     flex: 1;
     border: 2px solid #000;
     text-align: center;
+    position: relative;
 }
 
 .name {
@@ -88,22 +89,51 @@ body {
     color: #555;
 }
 
-.long-button-container {
-    margin-top: 30px;
-    text-align: center;
+.star-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #FFD700; /* Gold color */
+    cursor: pointer;
 }
 
-.btn-long {
-    padding: 10px 50px;
-    font-size: 18px;
+.star-icon:hover {
+    color: #FFA500;
+}
+
+.long-button-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-backward,
+.btn-forward {
+    padding: 10px;
+    font-size: 16px;
     background-color: #444;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
+}
+
+.btn-backward:hover,
+.btn-forward:hover {
+    background-color: #555;
+}
+
+.btn-long {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
 }
 
 .btn-long:hover {

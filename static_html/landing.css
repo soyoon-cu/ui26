@@ -7,47 +7,51 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-/* Landing container styles */
-.landing-container {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9); /* Subtle white background */
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 400px;
 }
 
-/* Icon styles */
+/* Main container */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icon and Title section */
+.icon-and-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .icon-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .icon {
-  width: 120px;
+  width: 150px;
   height: auto;
 }
 
-/* Title styles */
 .landing-title {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
   color: #333;
-  margin: 20px 0;
+  margin: 0;
 }
 
-/* Description styles */
+/* Description section */
 .landing-description {
-  font-size: 16px;
+  font-size: 18px;
   color: #555;
-  line-height: 1.5;
-  margin-bottom: 30px;
+  line-height: 1.6;
+  margin: 0;
 }
 
-/* Button container styles */
+/* Buttons */
 .button-container {
   display: flex;
   flex-direction: column;
@@ -55,21 +59,33 @@ body {
 }
 
 .btn {
-  padding: 10px 20px;
-  font-size: 16px;
+  width: 220px;
+  padding: 10px 15px;
+  font-size: 18px;
   font-weight: bold;
-  border: 2px solid #333;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.btn-dark:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-light {
   background-color: #fff;
   color: #333;
+  border: 2px solid #333;
 }
 
 .btn-light:hover {
-  background-color: #333;
-  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

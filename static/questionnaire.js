@@ -1,4 +1,3 @@
-// Helper: Get ID from URL
 function getIdFromUrl() {
     return window.location.pathname.split("/").pop();
 }

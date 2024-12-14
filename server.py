@@ -2,6 +2,7 @@ from flask import Flask
 from flask import render_template
 from flask import Response, request, jsonify
 import json
+import os
 
 app = Flask(__name__)
 
@@ -45,6 +46,8 @@ def create_alum_profile():
 def login():
    return "login page"
 
+with open('static/alum_info.json') as f:
+    alumni_info = json.load(f)
 
 @app.route('/alumni_info/<id>', methods=['GET'])
 def get_alumni_info(id):
@@ -54,21 +57,32 @@ def get_alumni_info(id):
     else:
         return jsonify({"error": "Alumni not found"}), 404
 
-
-with open("static/alum_info.json", "r") as file:
-    alumni_info = json.load(file)
 @app.route('/questionnaire/<id>', methods=['GET', 'POST'])
 def questionnaire(id):
     if request.method == 'GET':
         return render_template('questionnaire.html')
 
     elif request.method == 'POST':
-        # Handle the submission of questionnaire data for the POST request
         data = request.json
-        with open("questionnaire_data.json", "a") as file:
-            json.dump(data, file)
-            file.write("\n")
+
+        file_path = "static/questionnaire_data.json"
+
+        if os.path.exists(file_path):
+            with open(file_path, "r") as file:
+                try:
+                    all_data = json.load(file)
+                except json.JSONDecodeError:
+                    all_data = []
+        else:
+            all_data = []
+
+        all_data.append(data)
+
+        with open(file_path, "w") as file:
+            json.dump(all_data, file, indent=4)
+
         return jsonify({"message": "Questionnaire submitted successfully!"}), 200
+
 
 if __name__ == '__main__':
    app.run(debug = True)

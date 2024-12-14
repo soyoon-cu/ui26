@@ -17,7 +17,7 @@ def home(name=None):
  
 @app.route('/career-categories')
 def careerCategories():
-    return "Career Categories page" 
+    return render_template('careerCategories.html', name=name)  
  
 @app.route('/sharing')
 def sharing():
@@ -44,7 +44,6 @@ def create_alum_profile():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
    return "login page"
-
 
 @app.route('/alumni_info/<id>', methods=['GET'])
 def get_alumni_info(id):

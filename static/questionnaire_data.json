@@ -1,6 +1,7 @@
 [
     {
         "alumniId": "1",
+        "category": "SDE",
         "contact_info": {
             "email": "alice_johnson@gmail.com"
         },
@@ -9,7 +10,7 @@
         "location": "San Francisco, CA",
         "major": "Computer Science",
         "name": "Alice Johnson",
-        "working_area": "SDE",
+        "working_area": "IOS Development",
         "year": 2018,
         "formData": {
             "q1": "test",

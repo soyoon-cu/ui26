@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const backButton = document.getElementById("back-btn");
+
+    backButton.addEventListener("click", function () {
+        window.location.href = "/profile_list/all";
+    });
+});
+
 function getIdFromUrl() {
     return window.location.pathname.split("/").pop();
 }
@@ -17,7 +25,6 @@ function populateQuestionnaireData(data) {
 
         $(".tab-content").html(`<p>${data.formData.q1}</p>`);
 
-        // Populate profile details
         $("h1").text(data.name);
         $(".box1 p").text(`Working Area: ${data.working_area}`);
         $(".box4 p").text(data.contact_info.email);
@@ -25,6 +32,7 @@ function populateQuestionnaireData(data) {
         $(".tab-content").html("<p>No data available for this ID.</p>");
     }
 }
+
 
 function setupTabSwitching() {
     $(".tab").on("click", function () {

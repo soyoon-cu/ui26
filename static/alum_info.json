@@ -6,7 +6,8 @@
         "year": 2018,
         "current_job": "Software Engineer",
         "location": "San Francisco, CA",
-        "working_area": "SDE",
+        "category": "SDE",
+        "working_area": "IOS Development",
         "contact_info": {
             "email": "alice_johnson@gmail.com"
         }
@@ -18,7 +19,8 @@
         "year": 2020,
         "current_job": "Design Engineer",
         "location": "Detroit, MI",
-        "working_area": "Consulting",
+        "category": "Consulting",
+        "working_area": "ESG",
         "contact_info": {
             "email": "michael_brown@gmail.com"
         }
@@ -30,7 +32,8 @@
         "year": 2017,
         "current_job": "Marketing Manager",
         "location": "New York, NY",
-        "working_area": "Investment Banking",
+        "category": "Investment Banking",
+        "working_area": "TNT",
         "contact_info": {
             "email": "sarah_lee@gmail.com"
         }
@@ -42,7 +45,8 @@
         "year": 2019,
         "current_job": "Hardware Developer",
         "location": "Austin, TX",
-        "working_area": "SDE",
+        "category": "SDE",
+        "working_area": "Frontend Development",
         "contact_info": {
             "email": "david_kim@gmail.com"
         }
@@ -54,7 +58,8 @@
         "year": 2021,
         "current_job": "Research Scientist",
         "location": "Boston, MA",
-        "working_area": "Consulting",
+        "category": "Consulting",
+        "working_area": "Biotech",
         "contact_info": {
             "email": "emily_davis@gmail.com"
         }

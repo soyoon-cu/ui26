@@ -1,23 +1,25 @@
 # ui26
 
-Note for developing:
-"Flask example" folder includes example code for reference, and will be erased after code implementation is complete.
+"static_html" folder holds the initial .html and .css files for the pages (for development purposes only).
 
-"static_html" folder should hold the initial .html and .css files for the pages. please add the files here first.
+"static" folder holds .html and .js files.
+"templates" folder holds .css files.
 
-"static" folder should hold .html and .js files.
-"templates" folder should hold .css files.
-
-Pages implemented for Checkpoint 4:
+Implemented pages:
 - Landing Page (/)
 - Create student profile (/create-student-profile)
-- Home screen (/home)
+- Home Screen (/home)
+- Career Categories (/career-categories)
+- Profile List (/profile_list/[category]) </br>
+    [category] is one of the following: all, graduate-eudcation, finance, consulting, tech, public sector
+- Profile Page (/profile/[id])
+- Questionnaire Page (/questionnaire/[id])
 
-Code Instruction:
-open the folder on VSCode.
-
-If Python is not installed, install Python and add it to PATH variable first.
-
-Then, if Flask is not installed, run `pip install flask` on git bash.
-
-In the terminal, run `python server.py`
+Code Instruction:</br>
+Open the `ui26` folder on VSCode.</br>
+</br>
+If Python is not installed, install Python and add it to PATH variable first.</br>
+Then, if Flask is not installed, run `pip install flask` on git bash.</br>
+</br>
+In the terminal, run `python server.py`</br>
+Load the link in a web browser. (Typically http://127.0.0.1:5000)

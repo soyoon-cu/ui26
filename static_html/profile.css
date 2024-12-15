@@ -99,7 +99,7 @@ input::placeholder {
     border: 2px solid #000;
     margin-top: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    flex: 0.45;
+    flex: 0.42;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -110,7 +110,7 @@ input::placeholder {
 .tabs {
     position: absolute;
     top: 20px;
-    left: -93px;
+    left: -106px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -118,7 +118,7 @@ input::placeholder {
 
 .tab {
     background-color: #d9d9d9;
-    padding: 10px;
+    padding: 5px;
     border-radius: 3px;
     text-align: center;
     font-size: 14px;

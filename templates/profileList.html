@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Machine</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='profileList.css') }}">
+    <script src="{{ url_for('static', filename='profileList.js') }}"></script>
+</head>
+<body>
+<div class="header">
+    <p class="top-left">Time Machine</p>
+    <div class="filter-container">
+        <select class="filter-dropdown">
+            <option value="all">All</option>
+            <option value="graduate-education">Graduate Education</option>
+            <option value="consulting">Consulting</option>
+            <option value="finance">Finance</option>
+            <option value="tech">Tech</option>
+            <option value="public-sector">Public Sector</option>
+        </select>
+        <i class="fas fa-filter filter-icon"></i>
+    </div>
+</div>
+<div class="container">
+    <div class="box-wrapper">
+    </div>
+    <div class="long-button-container">
+        <button class="btn-backward">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="btn-forward">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+    <div class="button-container">
+        <button class="btn">Back</button>
+    </div>
+</div>
+</body>
+</html>

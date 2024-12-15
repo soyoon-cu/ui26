@@ -1,71 +1,54 @@
-/* General Styles */
+/* General body styles */
 body {
   margin: 0;
   font-family: "Rubik", sans-serif;
-  background-color: rgb(255, 240, 153); /* Soft yellow */
+  background-color: rgb(255, 240, 153); /* Soft yellow background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Main container */
+.landing-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
-/* Header */
-.header {
-  width: 100%;
-  background-color: #f5f5f5;
-  padding: 10px 20px;
+/* Icon and Title section */
+.icon-and-title {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.header .title {
-  font-weight: bold;
-  color: #333;
-  font-size: 16px;
-}
-
-.url-bar {
-  width: 70%;
-  padding: 5px 10px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff;
-  color: #666;
-}
-
-/* Landing Page */
-.landing-page {
-  text-align: center;
-  margin-top: 30px;
-  padding: 20px;
+  gap: 10px;
 }
 
 .icon-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
 
 .icon {
-  width: 120px;
+  width: 150px;
   height: auto;
 }
 
-.title {
-  font-size: 2rem;
+.landing-title {
+  font-size: 36px;
   font-weight: bold;
   color: #333;
-  margin: 20px 0 10px 0;
+  margin: 0;
 }
 
-.description {
-  font-size: 1rem;
+/* Description section */
+.landing-description {
+  font-size: 18px;
   color: #555;
-  line-height: 1.5;
-  margin-bottom: 30px;
+  line-height: 1.6;
+  margin: 0;
 }
 
 /* Buttons */
@@ -73,28 +56,38 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  align-items: center;
 }
 
 .btn {
-  width: 200px;
+  width: 220px;
   padding: 10px 15px;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: bold;
-  border: 2px solid #444;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.btn-dark:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-light {
   background-color: #fff;
-  color: #444;
+  color: #333;
+  border: 2px solid #333;
 }
 
 .btn-light:hover {
-  background-color: #444;
-  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-yellow {
@@ -104,6 +97,6 @@ body {
 }
 
 .btn-yellow:hover {
-  background-color: #e0a800; /* Darker yellow on hover */
-  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

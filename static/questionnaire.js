@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const backButton = document.querySelector("button[type='button']");
+  
+    backButton.addEventListener("click", function () {
+      window.location.href = "/home";
+    });
+  });
+
 function getIdFromUrl() {
     return window.location.pathname.split("/").pop();
 }

@@ -1,17 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const exploreCareerBox = document.querySelector(".box:nth-of-type(2)");
+  const menuItems = document.querySelectorAll(".menu-item");
+  const menuLinks = {
+    "🏠 Home": "/home",
+    "💼 Careers": "/career-categories",
+    "🔄 Sharing": "/questionnaire/1",
+    "📞 Contact Us": "/contact-us",
+  };
 
-  exploreCareerBox.addEventListener("click", function () {
-    window.location.href = "/career-categories";
+  menuItems.forEach((menuItem) => {
+    menuItem.addEventListener("click", function () {
+      const menuText = menuItem.textContent.trim();
+      const targetUrl = menuLinks[menuText];
+      if (targetUrl) {
+        window.location.href = targetUrl;
+      }
+    });
   });
 
-  const menuItems = document.querySelectorAll(".menu-item");
+  const boxes = document.querySelectorAll(".box");
+  const boxLinks = [
+    "/questionnaire/1",
+    "/career-categories",
+  ];
 
-  const paths = ["/home", "/career-categories", "/sharing", "/contact-us"];
-
-  menuItems.forEach((menuItem, index) => {
-    menuItem.addEventListener("click", function () {
-      window.location.href = paths[index];
+  boxes.forEach((box, index) => {
+    box.addEventListener("click", function () {
+      const targetUrl = boxLinks[index];
+      if (targetUrl) {
+        window.location.href = targetUrl;
+      }
     });
   });
 });

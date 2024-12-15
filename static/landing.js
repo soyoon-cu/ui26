@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const loginButton = document.querySelector(".login");
 
   loginButton.addEventListener("click", function () {
-    window.location.href = "/login";
+    window.location.href = "/home";
   });
 });

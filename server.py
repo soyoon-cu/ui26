@@ -83,6 +83,14 @@ def questionnaire(id):
 
         return jsonify({"message": "Questionnaire submitted successfully!"}), 200
 
+@app.route("/profile_list/<category>")
+def profile_list(category):
+    return render_template("profileList.html", category=category)
+
+@app.route("/api/profiles")
+def get_profiles():
+    return jsonify(questionnaire_data)
+
 
 if __name__ == '__main__':
    app.run(debug = True)

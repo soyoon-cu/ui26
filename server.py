@@ -91,6 +91,23 @@ def profile_list(category):
 def get_profiles():
     return jsonify(questionnaire_data)
 
+def load_questionnaire_data():
+    with open("static/questionnaire_data.json", "r") as file:
+        return json.load(file)
+
+@app.route('/questionnaire_data/<id>', methods=['GET'])
+def get_questionnaire_data(id):
+    data = load_questionnaire_data()
+    result = next((item for item in data if str(item["id"]) == id), None)
+    if result:
+        return jsonify(result)
+    else:
+        return jsonify({"error": "Data not found"}), 404
+
+@app.route('/profile/<id>', methods=['GET'])
+def profile(id):
+    return render_template('profile.html')
+
 
 if __name__ == '__main__':
    app.run(debug = True)

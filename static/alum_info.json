@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Alice Johnson",
+        "name": "Sara G.",
         "major": "Computer Science",
         "year": 2018,
-        "current_job": "Software Engineer",
+        "current_job": "CS PhD",
         "location": "San Francisco, CA",
-        "category": "tech",
-        "working_area": "IOS Development",
+        "category": "graduate education",
+        "working_area": "Natural Language Processing",
         "contact_info": {
-            "email": "alice_johnson@gmail.com"
+            "email": "sara_g@gmail.com"
         }
     },
     {
         "id": 2,
-        "name": "Michael Brown",
+        "name": "Michael R.",
         "major": "Mechanical Engineering",
         "year": 2020,
-        "current_job": "Design Engineer",
+        "current_job": "Consultant",
         "location": "Detroit, MI",
         "category": "consulting",
-        "working_area": "ESG",
+        "working_area": "Management Consulting",
         "contact_info": {
-            "email": "michael_brown@gmail.com"
+            "email": "michael_r@gmail.com"
         }
     },
     {
         "id": 3,
         "name": "Sarah Lee",
-        "major": "Business Administration",
+        "major": "Neuroscience and Behavior",
         "year": 2017,
-        "current_job": "Marketing Manager",
+        "current_job": "Marketing Consultant",
         "location": "New York, NY",
-        "category": "finance",
+        "category": "consulting",
         "working_area": "TNT",
         "contact_info": {
             "email": "sarah_lee@gmail.com"
@@ -43,10 +43,10 @@
         "name": "David Kim",
         "major": "Electrical Engineering",
         "year": 2019,
-        "current_job": "Hardware Developer",
+        "current_job": "Investment Analyst",
         "location": "Austin, TX",
-        "category": "tech",
-        "working_area": "Frontend Development",
+        "category": "finance",
+        "working_area": "Credit Research",
         "contact_info": {
             "email": "david_kim@gmail.com"
         }
@@ -54,14 +54,53 @@
     {
         "id": 5,
         "name": "Emily Davis",
-        "major": "Biology",
+        "major": "Economics and Psychology",
         "year": 2021,
-        "current_job": "Research Scientist",
+        "current_job": "Quant Trader",
         "location": "Boston, MA",
-        "category": "consulting",
-        "working_area": "Biotech",
+        "category": "finance",
+        "working_area": "Quant Trading",
         "contact_info": {
             "email": "emily_davis@gmail.com"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Amanda C.",
+        "major": "Economics and Psychology",
+        "year": 2021,
+        "current_job": "Entrepreneur",
+        "location": "Boston, MA",
+        "category": "tech",
+        "working_area": "AI",
+        "contact_info": {
+            "email": "amenda@gmail.com"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Brian Y.",
+        "major": "Computer Science",
+        "year": 2021,
+        "current_job": "SDE",
+        "location": "Boston, MA",
+        "category": "tech",
+        "working_area": "Software Development",
+        "contact_info": {
+            "email": "brian@gmail.com"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Micah D.",
+        "major": "History",
+        "year": 2021,
+        "current_job": "SDE",
+        "location": "Boston, MA",
+        "category": "public sector",
+        "working_area": "Philanthropic History",
+        "contact_info": {
+            "email": "micah@gmail.com"
         }
     }
 ]

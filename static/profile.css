@@ -134,6 +134,9 @@ input::placeholder {
     margin-left: 10px;
     background-color: #fff;
     text-align: left;
+    max-height: 250px;
+    overflow-y: auto;  /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling (optional) */
 }
 
 .bottom-left-text {

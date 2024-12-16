@@ -1,155 +1,177 @@
 [
     {
         "alumniId": "1",
-        "category": "SDE",
+        "category": "graduate education",
         "contact_info": {
-            "email": "alice_johnson@gmail.com"
+            "email": "sara_g@gmail.com"
         },
-        "current_job": "Software Engineer",
+        "current_job": "CS PhD",
         "id": 1,
         "location": "San Francisco, CA",
         "major": "Computer Science",
-        "name": "Alice Johnson",
-        "working_area": "IOS Development",
+        "name": "Sara G.",
+        "working_area": "Natural Language Processing",
         "year": 2018,
         "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
+            "q1": "I started building my path in natural language processing (NLP) and computer science while working on research projects and internships throughout my undergraduate years at Columbia University and Barnard College. These early experiences prepared me for a seamless transition into research assistant roles, focusing on AI and machine learning. Upon graduation, I continued with research opportunities and internships at institutions like Amazon Web Services (AWS) and Westlake University, refining my focus on NLP.",
+            "q2": "Columbia University was foundational in shaping my interest in computer science and psychology, particularly the intersection of NLP and human-centered AI. I gained hands-on research experience as an Undergraduate Research Assistant in the Computer Science Department, contributing to speech accessibility projects and exploring real-world applications of AI. Columbia's Speech Lab and Empirical Reasoning Center allowed me to work on impactful projects, building both technical and research skills.",
+            "q3": "My career path has been a progression of deliberate steps combining research, internships, and project work. During undergrad, I actively sought out research opportunities, including roles at Baidu, Inc., and Westlake University, to develop practical experience in NLP and machine learning. I strategically transitioned to industry-focused roles like SDE Intern at Amazon and AWS, where I could apply my research in a practical setting. Now, as part of JPMorgan's AI & Data Science Associate Program, I continue to refine my expertise while working at the intersection of AI and real-world challenges.",
+            "q4": "I have always been fascinated by the intersection of technology, language, and human behavior. Combining my dual background in computer science and psychology allowed me to explore NLP, where these interests converge. My projects, such as the P!CK project where AI analyzed product sentiment, and research assistant roles, reinforced my passion for solving complex problems through AI-driven solutions.",
+            "q5": "I recommend following key resources like ACL Anthology for NLP research papers, Google AI Blog, and conferences like NeurIPS, ICML, and EMNLP to stay updated on trends in machine learning and NLP. Additionally, hands-on tools like Hugging Face's Transformers library and Google Cloud NLP API are excellent for practical applications. Lastly, subscribing to research newsletters such as DeepLearning.AI or joining AI-related online communities can provide insights and foster connections.",
             "consent": true
         }
     },
     {
-        "alumniId": "1",
-        "category": "tech",
+        "alumniId": "2",
+        "category": "consulting",
         "contact_info": {
-            "email": "alice_johnson@gmail.com"
+            "email": "michael_r@gmail.com"
         },
-        "current_job": "Software Engineer",
-        "id": 1,
-        "location": "San Francisco, CA",
-        "major": "Computer Science",
-        "name": "Alice Johnson",
-        "working_area": "IOS Development",
-        "year": 2018,
+        "current_job": "Consultant",
+        "id": 2,
+        "location": "Detroit, MI",
+        "major": "Mechanical Engineering",
+        "name": "Michael R.",
+        "working_area": "Management Consulting",
+        "year": 2020,
         "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
-            "consent": true
-        }
-    },
-    {
-        "alumniId": "1",
-        "category": "tech",
-        "contact_info": {
-            "email": "alice_johnson@gmail.com"
-        },
-        "current_job": "Software Engineer",
-        "id": 1,
-        "location": "San Francisco, CA",
-        "major": "Computer Science",
-        "name": "Alice Johnson",
-        "working_area": "IOS Development",
-        "year": 2018,
-        "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
-            "consent": true
-        }
-    },
-    {
-        "alumniId": "1",
-        "category": "tech",
-        "contact_info": {
-            "email": "alice_johnson@gmail.com"
-        },
-        "current_job": "Software Engineer",
-        "id": 1,
-        "location": "San Francisco, CA",
-        "major": "Computer Science",
-        "name": "Alice Johnson",
-        "working_area": "IOS Development",
-        "year": 2018,
-        "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
-            "consent": true
-        }
-    },
-    {
-        "alumniId": "4",
-        "category": "tech",
-        "contact_info": {
-            "email": "david_kim@gmail.com"
-        },
-        "current_job": "Hardware Developer",
-        "id": 4,
-        "location": "Austin, TX",
-        "major": "Electrical Engineering",
-        "name": "David Kim",
-        "working_area": "Frontend Development",
-        "year": 2019,
-        "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
+            "q1": "After completing my studies at Seton Hall University and Columbia University\u2014where I combined coursework in mathematical finance, psychology, and human-centered design\u2014I naturally gravitated toward consulting and entrepreneurship. I took on early roles like Summer Analyst at Strategy& and Associate Consultant Intern at Bain & Company to build a foundation in strategy and business problem-solving. My experience founding Seton Hall\u2019s first consulting group prepared me to engage with real-world businesses early on.",
+            "q2": "Both institutions were instrumental in shaping my career: Seton Hall University: I gained a strong quantitative foundation through Mathematical Finance and IT Management. Founding the Seton Hall Consulting Group gave me hands-on leadership and team management experience while providing pro-bono consulting for small businesses. Being on the Varsity Baseball Team taught me discipline, teamwork, and perseverance. Columbia University: My coursework in Psychology, Economics, Advertising, and Human-Centered Design broadened my approach to problem-solving by integrating analytical, behavioral, and design perspectives. My transfer experience strengthened my adaptability and ability to thrive in diverse academic and professional environments. These experiences laid the groundwork for my success in consulting, entrepreneurship, and leadership roles.",
+            "q3": "My career has been defined by a combination of consulting, entrepreneurship, and leadership: Strategy & Summer Analyst: My first major step into consulting helped me understand high-level strategy for clients in diverse sectors, including retail and global non-profits. Associate Consultant Intern at Bain & Co: I further refined my analytical and client-facing skills, setting the stage for a consulting career. Entrepreneurship (Seton Hall Chapter Founder): Founding the first consulting group at Seton Hall allowed me to lead a team, build client relationships, and develop curricula for aspiring consultants. Startups and Leadership: Co-Founder at Maslo: I led a VC-backed health-tech startup, helping professionals achieve ambitious wellness goals. PersistIQ (Interim General Manager): I was promoted quickly to lead a SaaS company through a leadership transition, showcasing my ability to manage operations and drive growth during acquisition. McKinsey & Company: Transitioning back into consulting as a Business Analyst and now a Senior Business Analyst, I focus on helping B2B clients achieve growth, leveraging the entrepreneurial insights I gained in startups.",
+            "q4": "My interest in consulting and entrepreneurship was sparked during my time at Seton Hall, where I founded the first consulting club. Working with real clients and tackling strategic challenges made me realize the transformative impact of structured problem-solving. From there, experiences at firms like Strategy& and Bain & Company solidified my passion for strategy consulting. Additionally, I\u2019ve always been drawn to innovation and creating something impactful, which led me to co-found Maslo and take on leadership roles in startups like PersistIQ. I thrive at the intersection of strategy, entrepreneurship, and growth.",
+            "q5": "To stay updated in consulting, entrepreneurship, and business strategy, I recommend: Books: \"The Lean Startup\" by Eric Ries (Entrepreneurial principles and innovation). \"Good to Great\" by Jim Collins (Leadership and organizational transformation). \"Measure What Matters\" by John Doerr (Goal-setting frameworks like OKRs). Podcasts: \"The McKinsey Podcast\" for consulting and business trends. \"Acquired\" for in-depth analysis of startups and acquisitions. \"Masters of Scale\" by Reid Hoffman for insights on scaling businesses. Publications: Harvard Business Review and McKinsey Quarterly for actionable insights in leadership and strategy. TechCrunch and Crunchbase News for the latest startup trends. Practical Learning: Online courses like Strategy & Operations on Coursera or Entrepreneurial Thinking on edX. Case competitions and industry conferences to sharpen problem-solving and networking skills.",
             "consent": true
         }
     },
     {
         "alumniId": "3",
-        "category": "finance",
+        "category": "consulting",
         "contact_info": {
             "email": "sarah_lee@gmail.com"
         },
-        "current_job": "Marketing Manager",
+        "current_job": "Marketing Consultant",
         "id": 3,
         "location": "New York, NY",
-        "major": "Business Administration",
+        "major": "Neuroscience and Behavior",
         "name": "Sarah Lee",
         "working_area": "TNT",
         "year": 2017,
         "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
+            "q1": "After graduating with a B.A. in Neuroscience and Behavior from Columbia University, I began my professional journey as a Researcher at Rockefeller University, focusing on the visual cortex's functional architecture. This role combined my scientific background with a passion for understanding behavior, providing a strong analytical foundation. Over time, I realized my interests extended beyond pure research into fields where design, behavior, and innovation intersect, which inspired me to pursue a Master\u2019s in Design (M.Des) at the Illinois Institute of Technology.",
+            "q2": "At Columbia, I developed an interdisciplinary mindset through my studies in neuroscience and behavior, which taught me how to approach problems from both scientific and human-centered perspectives. My background in understanding human cognition and perception proved invaluable when I transitioned into design and strategy roles. Columbia gave me: Research skills: An ability to analyze complex systems, interpret data, and generate insights. Behavioral insights: Understanding how humans think and act became a cornerstone of my later work in user-centered design and ethnography. Critical thinking: Columbia encouraged a rigorous, analytical approach, which has helped me excel in strategy, research, and innovation-focused roles.",
+            "q3": "My career path has been a journey of integrating research, design, and strategy: Researcher at Rockefeller University: I began my career in neuroscience research, studying human behavior through a scientific lens. Consultant at Samsung Electronics: Transitioning to industry, I worked on customer research and product development in Samsung's Corporate Design Center in Seoul, applying insights to real-world innovation. Partner at ReD Associates: Over nine years, I built the technology practice, helping global clients connect social behavior with technology opportunities to create meaningful products. Director at Designit: I focused on insights and strategy, leading integrated teams to develop solutions for complex organizational challenges. Partner and Director of Strategy at Gemic: At Gemic, I help businesses navigate emerging shifts by blending cultural, technological, and market analysis into actionable strategies. Each step was driven by my intellectual curiosity and desire to bridge scientific research with design and business strategy to create meaningful impact.",
+            "q4": "My interest began with a fascination for human behavior and cognition during my time at Columbia, studying neuroscience. I realized that understanding how people think and act could be applied beyond academia\u2014particularly in how products, services, and experiences are designed. This realization led me to pursue a Master's in Design, where I learned to integrate research, innovation, and design thinking. Over the years, I developed a passion for ethnography and design strategy, as they combine behavioral insights with creative problem-solving to drive business and cultural innovation.",
+            "q5": "To stay updated in design strategy, ethnography, and innovation, I recommend the following resources: Books: \"The Design of Everyday Things\" by Don Norman (Human-centered design principles). \"Seeing Like a State\" by James C. Scott (Behavioral insights through cultural lenses). \"Change by Design\" by Tim Brown (IDEO\u2019s approach to design thinking). \"Thinking, Fast and Slow\" by Daniel Kahneman (Behavioral psychology foundations). Journals and Platforms: Harvard Business Review for strategy and leadership insights. Nielsen Norman Group for UX and user-centered design research. Design Observer for thought leadership in design and cultural innovation. Conferences and Communities: EPIC (Ethnographic Praxis in Industry Conference): A must for ethnographers and researchers. Interaction Design Association (IxDA) events for design professionals. Service Design Global Conference for learning about service innovation trends. Podcasts: \"This is HCD (Human-Centered Design)\" for design thinking strategies. \"IDEO U Creative Confidence\" for insights on design and innovation. Continued Learning: Online courses on platforms like Coursera or LinkedIn Learning to expand skills in design thinking, strategy, and innovation management. By combining these resources with real-world experience, you can stay at the forefront of innovation, user research, and design strategy.",
+            "consent": true
+        }
+    },
+    {
+        "alumniId": "4",
+        "category": "finance",
+        "contact_info": {
+            "email": "david_kim@gmail.com"
+        },
+        "current_job": "Investment Analyst",
+        "id": 4,
+        "location": "Austin, TX",
+        "major": "Electrical Engineering",
+        "name": "David Kim",
+        "working_area": "Credit Research",
+        "year": 2019,
+        "formData": {
+            "q1": "After graduating from Columbia University with a degree in Mathematics and a concentration in History, I pursued roles that allowed me to leverage my analytical and research skills. My first full-time role as an Investment Analyst at Morgan Stanley was a natural step given my experience in finance through prior internships. My intellectual curiosity and ability to synthesize complex data\u2014developed through math\u2014combined with my understanding of historical trends, helped me transition seamlessly into finance and investment roles.",
+            "q2": "Columbia shaped me both academically and personally: Rigorous academics: Studying mathematics taught me logical problem-solving, quantitative analysis, and structured thinking. My history concentration gave me the ability to interpret trends and patterns over time, a critical skill in finance. Leadership: As part of the Women\u2019s Swim and Dive Team and serving as Treasurer on SAAC E-Board, I learned discipline, teamwork, and leadership\u2014essential skills in collaborative professional environments. Global exposure: My time studying Italian and Art History at Universit\u00e0 Ca' Foscari Venezia broadened my cultural perspective and honed my communication and adaptability, which have been invaluable in professional settings.",
+            "q3": "My career path has been a steady progression, guided by a desire to develop a strong foundation in finance and investments: Private Equity Summer Intern (CDIB Capital): This internship taught me how to analyze markets, competitor data, and investment trends, providing my first hands-on exposure to finance. Global Financial Institutions Group Intern (SMBC): At SMBC, I gained experience in derivatives usage, hedging, and financial reporting, deepening my technical knowledge. Investment Analyst (Morgan Stanley): Moving into my current role allowed me to apply these experiences in a full-time capacity. I now synthesize complex financial data, assess market opportunities, and drive investment strategies. Each decision has been driven by a desire to combine my analytical skills from mathematics with my passion for understanding global markets.",
+            "q4": "My interest in finance stems from a combination of my love for numbers and my curiosity about global systems. Studying mathematics at Columbia sparked my interest in solving complex problems, while history gave me a macro view of economic trends and decision-making over time. I became fascinated by how financial systems drive economies and decided to pursue internships in private equity and banking, which confirmed my passion for this field. Additionally, my leadership roles and team experience in athletics taught me to thrive in high-pressure, competitive environments\u2014skills that align well with investment analysis.",
+            "q5": "To stay informed and continually develop as a professional in finance and investments, I recommend: Financial Publications: The Wall Street Journal and Financial Times for market news and global trends. The Economist for broader economic and geopolitical insights. Books: \"The Intelligent Investor\" by Benjamin Graham for value investing principles. \"Principles: Life and Work\" by Ray Dalio to understand leadership and investment philosophies. Reports and Research: Morgan Stanley Insights and McKinsey Global Reports for industry analyses and market research. PitchBook and CB Insights for trends in private equity and venture capital. Skills Development: Take online courses on platforms like Coursera or edX to expand knowledge in areas like financial modeling, Python for finance, or advanced Excel. Podcasts: \"The Investors Podcast\" for lessons on investing strategies. \"Macro Voices\" for macroeconomic discussions. Certifications: Continuing education, like my peers who pursue CFA or quantitative certifications, can supplement skills not fully covered during undergraduate studies.",
             "consent": true
         }
     },
     {
         "alumniId": "5",
-        "category": "consulting",
+        "category": "finance",
         "contact_info": {
             "email": "emily_davis@gmail.com"
         },
-        "current_job": "Research Scientist",
+        "current_job": "Quant Trader",
         "id": 5,
         "location": "Boston, MA",
-        "major": "Biology",
+        "major": "Economics and Psychology",
         "name": "Emily Davis",
-        "working_area": "Biotech",
+        "working_area": "Quant Trading",
         "year": 2021,
         "formData": {
-            "q1": "test",
-            "q2": "test",
-            "q3": "test",
-            "q4": "test",
-            "q5": "test",
+            "q1": "After graduating from Columbia University with a degree in Economics and Psychology, I began my career in the financial industry as a Summer Analyst at Soci\u00e9t\u00e9 G\u00e9n\u00e9rale, focusing on interest rates and forex derivatives. This experience solidified my interest in trading and financial markets. Shortly after, I joined Citi Institutional Clients Group in Sales and Trading, where I rotated through roles in High Yield Credit Trading and Equity Trading. My intellectual curiosity and a strong foundation in economics helped me land these early opportunities and excel in highly competitive environments.",
+            "q2": "Columbia provided me with a well-rounded education, combining Economics and Psychology. My studies in economics built analytical and quantitative skills that are critical for understanding financial markets, while psychology gave me a deeper understanding of human behavior and decision-making processes\u2014a valuable asset in trading and portfolio management. Additionally, participating in Division I Men\u2019s Varsity Soccer taught me the importance of discipline, teamwork, and perseverance, which I\u2019ve carried into my professional career.",
+            "q3": "My career path has been a progression of building expertise in trading, credit, and portfolio management: Citi (Associate): My initial roles in equity and high-yield credit trading gave me exposure to complex financial instruments and market dynamics. UBS O'Connor (Investment Analyst to Director): I transitioned to a role with deeper responsibilities, analyzing investments and credit opportunities. Citadel (Credit Investor): At Citadel, I focused on corporate credit trading and analysis, where I refined my ability to evaluate credit risk and market opportunities. ExodusPoint Capital Management (Portfolio Manager): I stepped into a leadership role, managing portfolios and making key investment decisions. Hudson River Trading (Credit Portfolio Manager): My current role combines advanced quantitative skills with strategic portfolio management. Each step has been driven by a desire to deepen my skills, take on larger challenges, and learn from top-tier institutions and teams.",
+            "q4": "I\u2019ve always been intellectually curious, particularly about the intersection of human behavior, markets, and risk management. My studies in psychology at Columbia gave me a unique perspective on how behavioral patterns influence market movements and decision-making. This curiosity naturally led me to explore trading and finance, where understanding behavior and numbers go hand-in-hand. Over time, I realized that I could combine my analytical skills with my interest in psychology to excel in portfolio management and credit investing.",
+            "q5": "To stay informed in finance, credit markets, and trading, I recommend the following resources: Publications: The Wall Street Journal and Financial Times for daily updates on global markets. Bloomberg Terminal for in-depth market analytics and real-time financial news. Books: \"The Intelligent Investor\" by Benjamin Graham for fundamental investment principles. \"Thinking, Fast and Slow\" by Daniel Kahneman to understand behavioral biases in decision-making. \"Liar\u2019s Poker\" by Michael Lewis for a look into trading culture and markets. Certifications: Supplementing your skills, as I did with a Graduate Certificate in Financial Engineering at Stevens Institute of Technology, can help fill knowledge gaps and deepen your quantitative expertise.",
+            "consent": true
+        }
+    },
+    {
+        "alumniId": "6",
+        "category": "tech",
+        "contact_info": {
+            "email": "amenda@gmail.com"
+        },
+        "current_job": "Entrepreneur",
+        "id": 6,
+        "location": "Boston, MA",
+        "major": "Economics and Psychology",
+        "name": "Amanda C.",
+        "working_area": "AI",
+        "year": 2021,
+        "formData": {
+            "q1": "After completing my Ph.D. in Computer Science at the University of Augsburg, where I focused on Computer Audition for Emotional Wellbeing, my research naturally positioned me to explore the intersection of AI, sound, and emotional intelligence. I transitioned into industry as an AI Research Scientist at Hume AI because of my passion for applying AI to human-centered problems. Moving into industry allowed me to combine my research expertise with real-world applications, particularly in creating tools to enhance emotional wellbeing through AI.",
+            "q2": "At Columbia University, I earned my MFA in Sound. My time there gave me a deep understanding of audio and sound technology, which laid the foundation for my later work in computer audition and AI for emotional wellbeing. I also worked as a Graduate Researcher and Teaching Assistant, where I explored the relationship between sound, technology, and human emotion. These experiences helped me bridge the gap between artistic creativity and computational approaches to understanding sound.",
+            "q3": "My career has been driven by a fascination with the intersection of technology, sound, and emotion: BA in Music Technology (London Metropolitan University): This gave me the creative and technical tools to explore the science of sound. MFA in Sound (Columbia University): I deepened my understanding of sound's impact on human experience. Ph.D. in Computer Science (University of Augsburg): I focused on computer audition and emotional wellbeing, combining sound with AI and computational empathy. Research Roles: I gained extensive experience as a PhD Research Fellow and Research Scientist at institutions like the Bavarian Center for Digitalization and Universit\u00e4t Passau, where I explored complex intelligent systems and embedded AI for healthcare. Hume AI: Transitioning to Hume AI as an AI Research Scientist, and now a Senior AI Research Scientist, allowed me to apply my expertise in AI and computational paralinguistics to human-centric, emotion-focused solutions. Each step was guided by my desire to connect technical innovation with real-world applications that improve emotional and mental wellbeing.",
+            "q4": "I became interested in this field because of my fascination with sound and its profound impact on human emotions and wellbeing. My background in music technology and sound studies sparked my curiosity about the intersection of art, science, and technology. During my Ph.D., I discovered how AI and computer audition could analyze and enhance emotional responses, opening up opportunities to use technology for improving mental and emotional health. This realization inspired me to pursue a career focused on building empathetic AI systems.",
+            "q5": "To stay informed in the fields of AI, emotional wellbeing, and sound-related technologies, I recommend: Research Journals: IEEE Transactions on Affective Computing Journal of the Audio Engineering Society (AES) Computer Speech & Language Books: \"Deep Learning\" by Ian Goodfellow (for foundational AI knowledge). \"The Oxford Handbook of Affective Computing\" (for AI and emotion research). Conferences: Interspeech: Focused on speech and auditory AI. ICMI (International Conference on Multimodal Interaction): Integrates audio, vision, and emotion research. NeurIPS and ICML: For broader AI advancements. Platforms: arXiv.org: For the latest AI and computer audition research. Hume AI Blog: Provides insights into empathetic AI and affective computing. Communities: Follow AI emotion and sound research groups on LinkedIn and GitHub. Engage with forums like ACM SIGGRAPH and Affective Computing communities.",
+            "consent": true
+        }
+    },
+    {
+        "alumniId": "7",
+        "category": "tech",
+        "contact_info": {
+            "email": "brian@gmail.com"
+        },
+        "current_job": "SDE",
+        "id": 7,
+        "location": "Boston, MA",
+        "major": "Computer Science",
+        "name": "Brian Y.",
+        "working_area": "Software Development",
+        "year": 2021,
+        "formData": {
+            "q1": "After graduating with a Bachelor of Science in Computer Science from Columbia University, I transitioned directly into industry as a Software Engineer at Google. My strong foundation in machine learning and AI research during my undergraduate years prepared me well for this role. Prior internships, like working at Columbia Build Lab with tech startups, gave me hands-on experience developing AI models and software tools, which helped me stand out during the hiring process.",
+            "q2": "Columbia provided me with exceptional opportunities to apply computer science concepts in real-world contexts. I had two pivotal research experiences: Ho Lab (Machine Learning Researcher): I designed ML models to study host-pathogen interactions, which strengthened my ability to apply machine learning to biological and data-driven challenges. Creative Machines Lab (Researcher): I worked on building ML and computer vision models to facilitate mechanical engineering tasks, like voxel detection for multi-material 3D printing. These experiences honed my problem-solving skills, exposed me to interdisciplinary research, and built the technical foundation that has been crucial in my software engineering role.",
+            "q3": "My career path has been a steady progression of applying what I learned in academia to real-world problems. I started with internships, including one at the Columbia Build Lab, where I worked with startups to develop AI tools. My undergraduate research roles at the Ho Lab and Creative Machines Lab allowed me to gain deep experience with machine learning and computer vision. These research projects helped me realize my passion for applying machine learning algorithms across diverse domains. This clarity guided me to pursue a role at Google, where I work on developing and improving ML models. Each decision was driven by my desire to combine my technical expertise with impactful projects.",
+            "q4": "I became interested in machine learning and AI because of their ability to solve complex, real-world problems across different disciplines. My undergraduate research experiences\u2014whether studying host-pathogen interactions at the Ho Lab or working on 3D printing models at the Creative Machines Lab\u2014showed me the transformative potential of machine learning. Seeing tangible results from models I developed sparked my passion to dive deeper into this field. Additionally, my internship at Columbia Build Lab, where I built AI tools for startups, solidified my interest in applying machine learning to create practical, innovative solutions.",
+            "q5": "arXiv.org (Computer Vision and ML): Stay on top of the latest research papers. Google AI Blog: A great resource to learn about cutting-edge projects and algorithms. Towards Data Science (Medium): Offers practical guides, tutorials, and discussions on ML and AI. Papers with Code: Helps connect research papers with working code implementations. Coursera and edX: Online courses like Andrew Ng's Machine Learning or Deep Learning Specialization for continuous learning. Conferences: Keep an eye on top AI/ML conferences like NeurIPS, ICML, and CVPR to stay updated with breakthroughs in the field.",
+            "consent": true
+        }
+    },
+    {
+        "alumniId": "8",
+        "category": "public sector",
+        "contact_info": {
+            "email": "micah@gmail.com"
+        },
+        "current_job": "SDE",
+        "id": 8,
+        "location": "Boston, MA",
+        "major": "History",
+        "name": "Micah D.",
+        "working_area": "Philanthropic History",
+        "year": 2021,
+        "formData": {
+            "q1": "After graduating with my Ph.D. in history from Columbia University, I knew I wanted to combine my interests in history and the non-profit sector. My research focused on how philanthropy professionals, policy, and businesses shaped giving patterns, and this naturally led me to roles where I could apply this understanding. My first step was working as an editor for the Emma Goldman Papers, a project that aligned with my values of democracy and egalitarianism. This role allowed me to engage deeply with historical materials while connecting them to contemporary conversations around philanthropy and social change.",
+            "q2": "At Columbia, I developed a strong foundation in historical research and critical analysis through my Ph.D. program. My dissertation explored how philanthropy professionals, local businesses, and policies created distinct patterns of giving in the San Francisco Bay Area. Columbia offered me access to rigorous academic research, invaluable archival resources, and mentorship that helped shape my understanding of philanthropy as both a historical and contemporary force. The intellectual environment at Columbia gave me the tools to ask complex questions about philanthropy\u2019s role in shaping society.",
+            "q3": "My career path has been shaped by my desire to connect my historical expertise with practical work in philanthropy. After completing my Ph.D. at Columbia, I started as an editor for the Emma Goldman Papers, where I could combine my research skills with a project that resonated with my values. This experience deepened my understanding of how philanthropy could serve as a tool for social and democratic change, and I wanted to explore this more concretely. I transitioned to my current role as Associate Director of Research for the Effective Philanthropy Learning Initiative at Stanford. Here, I use my historical perspective to examine the factors shaping philanthropic practice, with the broader goal of ensuring philanthropy nurtures an egalitarian and democratic society. Each step along the way was guided by my commitment to connecting research, history, and social impact.",
+            "q4": " My interest in philanthropy grew out of a combination of my passion for history and my belief in the potential of the non-profit sector to create positive change. During my Ph.D. research, I studied how philanthropy professionals and businesses influenced giving practices in the San Francisco Bay Area. This work showed me that philanthropy is not just a historical phenomenon but an essential force that shapes the present and the future. I was particularly drawn to philanthropy\u2019s role in promoting egalitarianism and democratic values, which aligned with my personal and professional commitments.",
+            "q5": "Stanford Social Innovation Review (SSIR): A leading publication for innovative approaches, best practices, and emerging trends in philanthropy and the non-profit sector. The Chronicle of Philanthropy: Offers updates on philanthropic initiatives, policy developments, and critical discussions in the field. HistPhil: A blog dedicated to the history of philanthropy, which aligns with Micah's historical perspective and bridges the gap between academic insights and practical developments. Works by Emma Saunders-Hastings: Focusing on the ethics of philanthropy and its role in democratic societies. Books on Philanthropic History: \"The Gospel of Wealth\" by Andrew Carnegie for historical context. \"American Foundations: Roles and Contributions\" by Helmut K. Anheier and David C. Hammack for understanding institutional philanthropy. The Center on Philanthropy and Civil Society at Stanford: Explore the research, insights, and events produced by the center to stay connected with current ideas and debates in philanthropy.",
             "consent": true
         }
     }
